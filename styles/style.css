@@ -1,0 +1,67 @@
+.fira-sans {
+  font-family: Fira Sans, serif;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header,
+main,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Shared style */
+.bg-color {
+  color: #006a50;
+}
+.txt-color {
+  color: #0e0e0e;
+}
+.txt-color-2 {
+  color: rgba(14, 14, 14, 0.7);
+}
+/* Header style */
+.sign-btn {
+  padding: 15px 30px;
+  border: 2px solid #006a50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+/* Banner sec. style */
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 70px 80px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.banner .banner-contain {
+}
+.banner-sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.banner-title {
+  font-size: 56px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.banner-btn{
+  padding: 18px 35px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #006a50;
+  color: #FFFFFF;
+}
