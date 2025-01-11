@@ -53,6 +53,7 @@ nav {
 /* Banner sec. style */
 .banner {
   display: flex;
+  gap: 10px;
   align-items: center;
   padding: 70px 80px;
   background-color: #c6e4d6;
@@ -67,8 +68,7 @@ nav {
   margin-bottom: 15px;
 }
 .banner-title {
-  font-size: 56px;
-  line-height: 60px;
+  font-size: 51px;
   margin-bottom: 20px;
 }
 .banner-btn{
@@ -105,6 +105,7 @@ nav {
 }
 
 /* vision section style */
+
 .vision-section{
 
 }
@@ -147,9 +148,10 @@ nav {
   border: none;
   background-color: #5490F5;
   color: #FFFFFF;
+  font-weight: 600;
 }
 .vision-item-btn:hover{
-  background: #1C0950;
+  background-color: #1C0950;
 }
 
 /* Quoat style */
