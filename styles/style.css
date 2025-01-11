@@ -68,11 +68,16 @@ nav {
   margin-bottom: 15px;
 }
 .banner-title {
-  font-size: 51px;
-  margin-bottom: 20px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
 }
 .banner-btn{
-  padding: 18px 35px;
+  margin-top: 15px;
+  padding: 15px 25px;
   border-radius: 8px;
   border: none;
   font-size: 18px;
