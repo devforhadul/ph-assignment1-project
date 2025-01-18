@@ -330,3 +330,25 @@ footer h3{
   font-size: 32px;
   font-weight: 700;
 }
+
+/* Media query */
+@media screen and (max-width: 576px) {
+  .pillar-container{
+    flex-direction: column;
+  }
+  .pillar-item{
+    text-align: center;
+  }
+
+  .vision-container{
+    flex-direction: column;
+  }
+  .vision-item{
+    text-align: center;
+  }
+
+  .news-all-content, .news-all-content-2, .amount-container {
+    flex-direction: column;
+  }
+  
+}
